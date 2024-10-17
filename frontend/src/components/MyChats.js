@@ -51,10 +51,13 @@ const MyChats = ({ fetchAgain }) => {
       flexDir="column"
       alignItems="center"
       p={3}
-      bg="white"
+      bg="black"
+color ='white'     
+
       w={{ base: "100%", md: "31%" }}
       borderRadius="lg"
       borderWidth="1px"
+
     >
       <Box
         pb={3}
@@ -72,7 +75,8 @@ const MyChats = ({ fetchAgain }) => {
             d="flex"
             fontSize={{ base: "17px", md: "10px", lg: "17px" }}
             rightIcon={<AddIcon />}
-          >
+           bg ='black'
+>
             New Group Chat
           </Button>
         </GroupChatModal>

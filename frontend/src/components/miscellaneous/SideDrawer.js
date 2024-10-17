@@ -141,8 +141,8 @@ function SideDrawer() {
             </Text>
           </Button>
         </Tooltip>
-        <Text fontSize="2xl" fontFamily="Work sans">
-          Chat-To-Chat
+        <Text fontWeight='bolder' fontSize="2xl" fontFamily="Work sans">
+          BettleChat
         </Text>
         <div>
           <Menu>
